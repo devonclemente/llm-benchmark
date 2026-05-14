@@ -36,10 +36,10 @@ Output: a markdown report comparing every model side by side — response time, 
 
 ## Requirements
 
-- [Ollama](https://ollama.com) installed and running
-- At least one model pulled: `ollama pull llama3.2`
+- [Ollama](https://ollama.com) installed and running — Ollama is the local model runner used to pull and serve models like Gemma and Mistral
+- At least one model pulled: `ollama pull gemma`
 - Python 3.8+
-- Optional: [Claude CLI](https://claude.ai/code) for cloud comparison
+- Optional: [Claude CLI](https://claude.ai/code) for cloud comparison (Claude Sonnet, Claude Haiku)
 
 ---
 
@@ -47,7 +47,7 @@ Output: a markdown report comparing every model side by side — response time, 
 
 ```bash
 # Pull a model
-ollama pull llama3.2
+ollama pull gemma
 
 # Run the benchmark
 python3 llm-benchmark.py
@@ -56,7 +56,7 @@ python3 llm-benchmark.py
 python3 llm-benchmark.py --skip-claude
 
 # Specific models and tasks
-python3 llm-benchmark.py --models llama3.2 mistral --tasks summarize classify
+python3 llm-benchmark.py --models gemma mistral --tasks summarize classify
 ```
 
 ---
