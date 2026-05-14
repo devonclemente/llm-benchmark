@@ -6,9 +6,9 @@ Runs the same prompts through every model and generates a readable markdown repo
 
 ---
 
-## Background
-
 ![AI Royal Rumble — Cloud vs Local](ai-royal-rumble-cloud-vs-local.png)
+
+## Background
 
 Built as part of a real automation project — we used this to choose the model running a daily ops bot for a small business. The full story is in the article series on Medium:
 
