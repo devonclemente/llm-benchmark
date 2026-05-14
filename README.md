@@ -6,6 +6,17 @@ Runs the same prompts through every model and generates a readable markdown repo
 
 ---
 
+## Background
+
+Built as part of a real automation project — we used this to choose the model running a daily ops bot for a small business. The full story is in the article series on Medium:
+
+- [Why I Don't Trust AI Models I Can't Run Offline](https://medium.com/@devonclemente/why-i-dont-trust-ai-models-i-cant-run-offline-59a49cfe11f3)
+- [We Built a Daily Ops Bot for a Small Business on a $1000 Mac Mini](https://medium.com/@devonclemente/daily-ops-bot-small-business-mac-mini-893aa08a6868)
+- [The 50-Line Python Script That Runs a Team Standup Every Morning](https://medium.com/@devonclemente/50-line-python-script-team-standup)
+- [You wouldn't crack a walnut with a sledgehammer, would you?](https://medium.com/@devonclemente/local-vs-cloud-llm-benchmark-ops-data-be4e0f93b46e)
+
+---
+
 ## What it does
 
 Four task types, every model, same prompts:
@@ -74,17 +85,6 @@ Update `SAMPLE_CONTEXT` with your own data — or load it from a file.
 --skip-claude Skip Claude CLI, run local models only
 --output      Output report filename (default: benchmark-YYYY-MM-DD.md)
 ```
-
----
-
-## Background
-
-Built as part of a real automation project — we used this to choose the model running a daily ops bot for a small business. The full story is in the article series on Medium:
-
-- [Why I Don't Trust AI Models I Can't Run Offline](https://medium.com/@devonclemente/why-i-dont-trust-ai-models-i-cant-run-offline-59a49cfe11f3)
-- [We Built a Daily Ops Bot for a Small Business on a $1000 Mac Mini](https://medium.com/@devonclemente/daily-ops-bot-small-business-mac-mini-893aa08a6868)
-- [The 50-Line Python Script That Runs a Team Standup Every Morning](https://medium.com/@devonclemente/50-line-python-script-team-standup)
-- Article 4 — this script *(link coming)*
 
 ---
 
