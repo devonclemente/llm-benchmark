@@ -8,6 +8,8 @@ Runs the same prompts through every model and generates a readable markdown repo
 
 ## Background
 
+![AI Royal Rumble — Cloud vs Local](ai-royal-rumble-cloud-vs-local.png)
+
 Built as part of a real automation project — we used this to choose the model running a daily ops bot for a small business. The full story is in the article series on Medium:
 
 - [Why I Don't Trust AI Models I Can't Run Offline](https://medium.com/@devonclemente/why-i-dont-trust-ai-models-i-cant-run-offline-59a49cfe11f3)
