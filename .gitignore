@@ -1,4 +1,5 @@
 benchmark-*.md
+!sample-output/benchmark-sample.md
 __pycache__/
 *.pyc
 .DS_Store

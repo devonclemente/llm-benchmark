@@ -90,4 +90,14 @@ Update `SAMPLE_CONTEXT` with your own data — or load it from a file.
 
 ---
 
+---
+
+## Sample output
+
+See what a benchmark report actually looks like: [sample-output/benchmark-sample.md](sample-output/benchmark-sample.md)
+
+Or see the results live with context: [devonclemente.com/#llm-benchmark](https://devonclemente.com/#llm-benchmark)
+
+---
+
 See what I build when the model is chosen — [devonclemente.com](https://devonclemente.com)
