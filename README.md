@@ -90,4 +90,4 @@ Update `SAMPLE_CONTEXT` with your own data — or load it from a file.
 
 ---
 
-[devonclemente.com](https://devonclemente.com)
+See what I build when the model is chosen — [devonclemente.com](https://devonclemente.com)
